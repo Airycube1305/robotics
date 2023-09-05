@@ -1,0 +1,39 @@
+[0.560s] Invoking command in '/home/student/ros2_ws/src/my_package2': PYTHONPATH=/home/student/ros2_ws/src/build/my_package2/prefix_override:/home/student/ros2_ws/src/install/my_package2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/my_package2 build --build-base /home/student/ros2_ws/src/build/my_package2/build install --record /home/student/ros2_ws/src/build/my_package2/install.log --single-version-externally-managed
+[0.748s] running egg_info
+[0.748s] creating ../build/my_package2/my_package2.egg-info
+[0.748s] writing ../build/my_package2/my_package2.egg-info/PKG-INFO
+[0.748s] writing dependency_links to ../build/my_package2/my_package2.egg-info/dependency_links.txt
+[0.748s] writing entry points to ../build/my_package2/my_package2.egg-info/entry_points.txt
+[0.748s] writing requirements to ../build/my_package2/my_package2.egg-info/requires.txt
+[0.748s] writing top-level names to ../build/my_package2/my_package2.egg-info/top_level.txt
+[0.750s] writing manifest file '../build/my_package2/my_package2.egg-info/SOURCES.txt'
+[0.751s] reading manifest file '../build/my_package2/my_package2.egg-info/SOURCES.txt'
+[0.751s] writing manifest file '../build/my_package2/my_package2.egg-info/SOURCES.txt'
+[0.751s] running build
+[0.751s] running build_py
+[0.752s] creating /home/student/ros2_ws/src/build/my_package2/build
+[0.752s] creating /home/student/ros2_ws/src/build/my_package2/build/lib
+[0.752s] creating /home/student/ros2_ws/src/build/my_package2/build/lib/my_package2
+[0.752s] copying my_package2/my_node.py -> /home/student/ros2_ws/src/build/my_package2/build/lib/my_package2
+[0.752s] copying my_package2/__init__.py -> /home/student/ros2_ws/src/build/my_package2/build/lib/my_package2
+[0.752s] running install
+[0.752s] running install_lib
+[0.752s] creating /home/student/ros2_ws/src/install/my_package2/lib/python3.10/site-packages/my_package2
+[0.753s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.753s]   warnings.warn(
+[0.753s] copying /home/student/ros2_ws/src/build/my_package2/build/lib/my_package2/my_node.py -> /home/student/ros2_ws/src/install/my_package2/lib/python3.10/site-packages/my_package2
+[0.753s] copying /home/student/ros2_ws/src/build/my_package2/build/lib/my_package2/__init__.py -> /home/student/ros2_ws/src/install/my_package2/lib/python3.10/site-packages/my_package2
+[0.753s] byte-compiling /home/student/ros2_ws/src/install/my_package2/lib/python3.10/site-packages/my_package2/my_node.py to my_node.cpython-310.pyc
+[0.754s] byte-compiling /home/student/ros2_ws/src/install/my_package2/lib/python3.10/site-packages/my_package2/__init__.py to __init__.cpython-310.pyc
+[0.754s] running install_data
+[0.754s] creating /home/student/ros2_ws/src/install/my_package2/share/ament_index
+[0.754s] creating /home/student/ros2_ws/src/install/my_package2/share/ament_index/resource_index
+[0.754s] creating /home/student/ros2_ws/src/install/my_package2/share/ament_index/resource_index/packages
+[0.754s] copying resource/my_package2 -> /home/student/ros2_ws/src/install/my_package2/share/ament_index/resource_index/packages
+[0.754s] copying package.xml -> /home/student/ros2_ws/src/install/my_package2/share/my_package2
+[0.754s] running install_egg_info
+[0.756s] Copying ../build/my_package2/my_package2.egg-info to /home/student/ros2_ws/src/install/my_package2/lib/python3.10/site-packages/my_package2-0.0.0-py3.10.egg-info
+[0.756s] running install_scripts
+[0.769s] Installing my_node script to /home/student/ros2_ws/src/install/my_package2/lib/my_package2
+[0.769s] writing list of installed files to '/home/student/ros2_ws/src/build/my_package2/install.log'
+[0.785s] Invoked command in '/home/student/ros2_ws/src/my_package2' returned '0': PYTHONPATH=/home/student/ros2_ws/src/build/my_package2/prefix_override:/home/student/ros2_ws/src/install/my_package2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/my_package2 build --build-base /home/student/ros2_ws/src/build/my_package2/build install --record /home/student/ros2_ws/src/build/my_package2/install.log --single-version-externally-managed
